@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="674.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="borrowBook">
+   <children>
+      <BorderPane prefHeight="80.0" prefWidth="620.0" style="-fx-background-color: #073B3A;">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <FontAwesomeIcon fill="WHITE" glyphName="BOOK" layoutX="14.0" layoutY="57.0" size="50" text="" />
+                  <Text fill="WHITE" layoutX="60.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALGO PROJECT - E LIBRARY">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="432.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Read anytime, anywhere">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </center></BorderPane>
+      <AnchorPane prefHeight="80.0" prefWidth="620.0" style="-fx-background-color: #0B6E4F;">
+         <children>
+            <Text layoutX="324.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="anywhere">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text layoutX="218.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="anytime">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="560.0" prefWidth="860.0" style="-fx-background-color: #E2DEE1;">
+         <children>
+            <TextField fx:id="borrowBookTextField" alignment="CENTER" layoutX="101.0" layoutY="14.0" prefHeight="42.0" prefWidth="473.0" promptText="Search the book you want to borrow">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextField>
+            <FontAwesomeIcon glyphName="SEARCH" layoutX="584.0" layoutY="44.0" size="35" text="" />
+            <Button layoutX="574.0" layoutY="14.0" mnemonicParsing="false" onAction="#searchButton" prefHeight="42.0" prefWidth="52.0" style="-fx-background-color: TRANSPARENT;" />
+            <Text layoutX="14.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Books you might want to read!">
+               <font>
+                  <Font name="Berlin Sans FB" size="22.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="14.0" layoutY="120.0" prefHeight="210.0" prefWidth="147.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 15px;">
+               <children>
+                  <ImageView fx:id="image1" fitHeight="150.0" fitWidth="120.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@10.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="11.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THE FAULT IN OUR S...">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="11.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="11.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="John Green">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="9.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="20.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="41.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="51.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="31.0" layoutY="206.0" text="" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="172.0" layoutY="120.0" prefHeight="210.0" prefWidth="147.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 15px;">
+               <children>
+                  <Text layoutX="11.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="THE GIVING TREE">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="11.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="11.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shel Silverstein">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="9.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="20.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="41.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="51.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="31.0" layoutY="206.0" text="" />
+                  <ImageView fx:id="image2" fitHeight="150.0" fitWidth="103.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@12.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="14.0" layoutY="336.0" prefHeight="210.0" prefWidth="147.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 15px;">
+               <children>
+                  <Text layoutX="11.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JANE ERYE">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="11.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="11.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Charlotte Bronte">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="9.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="20.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="41.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="51.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="31.0" layoutY="206.0" text="" />
+                  <ImageView fx:id="image3" fitHeight="150.0" fitWidth="103.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@16.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="172.0" layoutY="336.0" prefHeight="210.0" prefWidth="147.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 15px;">
+               <children>
+                  <Text layoutX="11.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TWILIGHT">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="11.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="11.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stephenie Meyer">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Text>
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="9.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="20.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="41.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="51.0" layoutY="206.0" text="" />
+                  <FontAwesomeIcon fill="#ffe400" glyphName="STAR" layoutX="31.0" layoutY="206.0" text="" />
+                  <ImageView fx:id="image4" fitHeight="150.0" fitWidth="103.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@6.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="391.0" layoutY="122.0" prefHeight="317.0" prefWidth="248.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 15px;">
+               <children>
+                  <ImageView fx:id="borrowedBook" fitHeight="286.0" fitWidth="200.0" layoutX="24.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </AnchorPane>
+            <Text layoutX="391.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Result:">
+               <font>
+                  <Font name="Berlin Sans FB" size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="385.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do you want to borrow this book?">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Text>
+            <Button layoutX="415.0" layoutY="476.0" mnemonicParsing="false" onAction="#borrowBookButton" prefHeight="42.0" prefWidth="200.0" style="-fx-background-color: #073B3A;" text="BORROW!" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
